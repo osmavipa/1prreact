@@ -1,0 +1,41 @@
+.container {
+  min-height: 100vh;
+  background-position: center center ;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2em;
+  font-family: "Arial Rounded", Arial, sans-serif; /* Tipo de letra para todos los elementos dentro de .container */
+}
+
+.container__title {
+  text-shadow: 0.05em 0.05em #b38f8f;
+  font-size: 2rem;
+}
+
+.container__phrase {
+  width: 87%;
+  max-width: 18.9em;
+  padding: 3.1em 5.4em;
+  line-height: 1.4;
+  border-radius: 0.9em;
+  background-image: url('/rectangle2.svg');
+  background-color: rgb(228, 169, 169);
+}
+
+.container__btn {
+  padding: 0.8em 1.2em;
+  border-radius: 0.7em;
+  font-size: 1.2rem;
+  opacity: 0.5;
+  cursor: pointer;
+  transition: all 200ms ease;
+}
+
+.container__btn:hover {
+  opacity: 1;
+  transform: scale(1.05);
+  box-shadow: 0 0 0.8em rgba(236, 3, 3, 0.333);
+}
